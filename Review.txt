@@ -1,7 +1,9 @@
 My Initial way of approaching Exam/ Vuln CTF Boxes:
+
 netdiscover -i eth0 — This will help me to get the machines available on our network. [ eth0 may differ if VPN network I will be tun0 ]
 Once I get the IP’s I will run my Nmap on all those IP’s.
 nmap -p- 10.10.10.10 [ Any IP ]
+
 Once I ran the above command I will get all the opened port on that target and then with that open port, I will run another nmap, for example, if port 443,80,53,135,8080,8888 are opened then my nmap command will be.
 
 4. nmap -p443,80,53,135,8080,8888 -A -O -sV -sC -T4 -oN nmapOutput 10.10.10.10
@@ -24,6 +26,8 @@ admin'/*
 ' or 1=1/*
 ') or '1'='1--
 ') or ('1'='1—
+
+
 7. Brute Forcing services !! and making custom wordlists is always an added advantage but make sure the service won’t be down OR lock you out from trying again.
 
 Some of the default password list:
