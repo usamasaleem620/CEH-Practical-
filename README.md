@@ -12,4 +12,6 @@ https://github.com/System-CTL/CEH_CHEAT_SHEET
 
 https://github.com/TheCyberpunker/CEH-Practical-Notes/blob/main/8%20-%20CEH-Notes.md
 
+https://github.com/Samsar4/Ethical-Hacking-Labs
+
 
