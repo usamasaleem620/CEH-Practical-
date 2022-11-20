@@ -75,3 +75,19 @@ You can enter any of the user credentials that you have gathered in the step #14
 If do you want to retrieve the command standard output? message appears type Y and press Enter.
  
 24.	On completing the lab exercise, exit all the applications and close all the files and folders that were opened during the lab.
+
+Other:
+
+Metasploit:
+
+msfconsole
+db_status 
+msfdb init 
+service postgresql restart 
+nmap -Pn -sS -A -oX Test 10.10.10.0/24
+db_import Test 
+
+NTLM hashes:
+
+wmic useraccount get name,sid 
+PwDump7.exe > c:\hashes.txt 
